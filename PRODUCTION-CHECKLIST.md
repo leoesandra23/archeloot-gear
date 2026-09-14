@@ -1,0 +1,21 @@
+# V15 Production Checklist
+
+- [ ] Node.js 24+ available
+- [ ] DirectAdmin Node.js / Nginx Unit feature available
+- [ ] `gear.mmonexus.com.br` DNS points to the server
+- [ ] HTTPS certificate active
+- [ ] ZIP uploaded with `package.json` at app root
+- [ ] `npm ci` completed
+- [ ] `npm run build` completed
+- [ ] production process started
+- [ ] `/api/health` returns `ok: true`
+- [ ] `/embed` opens directly
+- [ ] forum origin included in `IPS_FRAME_ANCESTORS`
+- [ ] IPS Custom Embeds/domain allowlist configured if required
+- [ ] IPS page iframe loads while logged out
+- [ ] mobile layout tested
+- [ ] save/new/import/share tested
+- [ ] shared build URL tested
+- [ ] equipment slot restrictions tested
+- [ ] set detection tested
+- [ ] no Node port exposed directly to the Internet
