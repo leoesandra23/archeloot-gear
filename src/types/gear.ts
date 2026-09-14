@@ -1,0 +1,3 @@
+export type Rarity = "Basic" | "Crude" | "Grand" | "Rare" | "Arcane" | "Heroic" | "Unique" | "Celestial" | "Divine" | "Epic" | "Legendary" | "Mythic" | "Eternal";
+export type Group = "Armor" | "Accessory" | "Weapon" | "Utility";
+export type Item = { id: string; name: string; level: number; gs: number; rarity: Rarity; groups: Group[]; stats: Record<string, number>; socket?: number; description: string; set?: string; source?: string; verified?: boolean; effect?: string; allowed?: string[]; sourceUrl?: string; setKey?: string; setRole?: "head"|"chest"|"waist"|"arms"|"hands"|"legs"|"feet"|"ring"|"ear"|"neck"|"weapon"|"other" };

@@ -1,0 +1,1 @@
+export { weapons as researchedWeapons, armor as researchedArmor, accessories as researchedAccessories, shields as researchedShields, instruments as researchedInstruments, lunagems as researchedLunagems } from "./catalog";
